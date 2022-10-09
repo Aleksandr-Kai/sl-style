@@ -1,0 +1,31 @@
+#main_pic{
+	width: 500px;
+	height: 350px;
+	margin: 10px auto 10px;
+	padding: 5px;
+	box-shadow: 4px 4px 8px black;
+	border-radius: 8px;
+	border: solid 2px #FF9900;
+	background: #333333;
+	text-align: center;
+}
+#main_pic img{
+	max-width: 500px;
+	max-height: 350px;
+}
+
+#content ul{
+	float: left;
+	margin: 5px;
+	list-style: none;
+}
+#content ul img{
+	max-width: 50px;
+	max-height: 50px;
+	border: solid 1px #FF9900;
+	border-radius: 4px;
+}
+#content ul li{
+	overflow: hidden;
+	text-align: center;
+}

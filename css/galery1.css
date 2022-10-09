@@ -1,0 +1,82 @@
+#big_pic{
+	width: 690px;
+	height: 500px;
+	text-align: center;
+	margin: 10px auto 10px;
+}
+#big_pic img{
+	max-width: 680px;
+	max-height: 500px;
+	box-shadow: 4px 4px 8px black;
+}
+/*-------------------------------*/
+#prev_pic{
+	width: 650px;
+	height: 180px;
+	margin: auto;
+	overflow-y: auto;
+	/background: rgba(51, 51, 51, 0.5);
+	background: rgba(255, 255, 255, 0.7);
+}
+#prev_pic ul{
+	width: 630px;
+	height: 180px;
+	margin: auto;
+	list-style: none;
+}
+#prev_pic ul li{
+	float: left;
+	margin: 5px;
+	border-radius: 4px;
+}
+#prev_pic ul li a{
+	width: 60px;
+	height: 50px;
+	border-radius: 4px;
+	background: #333333;
+	text-align: center;
+	display: block;
+}
+#prev_pic ul li a img{
+	max-width: 60px;
+	height: 50px;
+	border-radius: 4px;
+}
+#prev_pic ul li:hover{
+	box-shadow: 0 0 10px black;
+}
+/*-------------------------------*/
+#pager{
+	width: 690px;
+	height: 20px;
+	text-align: center;
+	margin: 5px auto;
+	border-top: solid 1px #FF9900;
+}
+#pager a{
+	width: 100px;
+	height: 20px;
+	color: #FF9900;
+	font: 10pt ARIAL BLACK;
+	display: block;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#pager a:hover{
+	background: #333333;
+}
+#pager ul{
+	margin: 0 30px;
+	list-style: none;
+}
+#pager ul li{
+	margin-left: 5px;
+	box-shadow: 0 4px 8px black;
+	float: left;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background: #FFFFFF;
+}
+#pager ul li.current{
+	background: #333333;
+}

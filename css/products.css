@@ -1,0 +1,104 @@
+#page_head{
+	width: 900px;
+	height: 200px;
+}
+#page_head img{
+	height: 200px;
+}
+#page_head h3{
+	padding: 10px;
+	text-shadow: 4px 4px 8px black;
+}
+#page_head ul{
+	margin-left: 30px;
+	padding: 10px;
+	text-shadow: 4px 4px 8px black;
+}
+.prod{
+	/margin: 10px 0 10px 20px;
+	margin: 10px 0 10px 10px;
+	box-shadow: 4px 4px 8px black;
+	width: 420px;
+	/width: 400px;
+	height: 112px;
+	filter: alpha(opacity=50);
+}
+
+.prod img{
+	width: 150px;
+	float: left;
+}
+
+.prod p{
+	margin-left: 155px;
+	margin-top: 2px;
+	width: 260px;
+	height: 80px;
+	overflow: hidden;
+}
+.prod a{
+	display: block;
+	color: #333333;
+	height: 112px;
+	font: 9pt arial;
+}
+.prod a:hover{
+	background: #FF9900;
+	color: #333333;
+}
+.topic_head{
+	display: inline-block;
+	margin-left: -155px;
+	margin-top: 5px;
+	padding-right: 10px;
+	width: 415px;
+	background: #333333;
+	/background: linear-gradient(to left, #333333 40%, transparent 99%, #333333 1%);
+	color: #FF9900;
+	text-align: right;
+	border-top: solid 2px #FF9900;
+	border-bottom: solid 1px #FF9900;
+}
+
+#topics{
+	height: 510px;
+	width: 900px;
+}
+.topics_col{
+	margin-left: 5px;
+	width: 440px;
+	float: left;
+}
+#pager{
+	width: 100px;
+	height: 30px;
+	margin: 0px auto;
+	border-radius: 5px;
+	border: solid 2px #FF9900;
+	box-shadow: 4px 4px 8px black;
+	float: bottom;
+}
+#pager ul{
+	list-style: none;
+}
+#pager ul li{
+	width: 50px;
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+#pager ul a{
+	color: #333333;
+	display: block;
+	margin: 1px;
+	height: 28px;
+	font: 14pt ARIAL BLACK;
+	font-weight: bold;
+	border-radius: 2px;
+}
+#pager ul a:hover{
+	background: #FF9900;
+}
+#li_current{
+	background: #FF9900;
+}

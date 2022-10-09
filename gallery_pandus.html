@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/galery1.css" rel="stylesheet" type="text/css">
+<title>Нержавеющий стиль</title>
+</head>
+<script  type="text/javascript">
+    function changeBlock(id) {
+	   document.getElementById('big_pic').innerHTML = '<a href="'+id+'" target="_blank"><img src ="'+id+'"/></a>';
+    }
+</script>
+
+<body>
+    <div id="content"  style="background-image: url(img/bg/gallery_bg_pandus.jpg);">
+		<div id="big_pic"><img src ="img/pandus/001.jpg"/></div>
+		<div id="prev_pic">
+			<ul>
+				<li><a href="#" onclick="changeBlock('img/pandus/001.jpg');return false;"><img src ="img/pandus/p001.gif"/></a></li>
+				<li><a href="#" onclick="changeBlock('img/pandus/002.jpg');return false;"><img src ="img/pandus/p002.gif"/></a></li>
+				<li><a href="#" onclick="changeBlock('img/pandus/003.jpg');return false;"><img src ="img/pandus/p003.gif"/></a></li>
+				<li><a href="#" onclick="changeBlock('img/pandus/004.jpg');return false;"><img src ="img/pandus/p004.gif"/></a></li>
+			</ul>
+		</div>
+		<div id="pager">
+			<ul>
+				<li><a href="gallery_balkon.html">Балконы</a></li>
+				<li><a href="gallery_lestnicy.html">Лестницы</a></li>
+				<li class="current"><a href="gallery_pandus.html">Пандусы</a></li>
+				<li><a href="gallery_ulica.html">Уличные</a></li>
+				<li><a href="gallery_bassein.html">Бассейны</a></li>
+				<li><a href="gallery_naves.html">Навесы</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

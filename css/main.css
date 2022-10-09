@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	/font: 10pt Times New Roman;
+}
+
+body{
+	
+}
+a{
+	text-decoration: none;
+}
+.rightpic{
+	float: right; /* Выравнивание по правому краю */
+	margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
+.clr{
+	clear: both;
+}
+.map_block{
+	width: 500px;
+	height: 350px;
+	margin: 10px auto 40px;
+	padding: 5px;
+	box-shadow: 4px 4px 8px black;
+	border-radius: 8px;
+	border: solid 2px #FF9900;
+	background: #333333;
+}
+
+#page_align{
+	border-radius: 8px;
+	width: 900px;
+	margin: 35px auto;
+	/background: #EFEFEF;
+	box-shadow: 4px 4px 8px black;
+	overflow: hidden;
+}
+#header{
+	height: 100px;
+	border: none;
+	background: #333333;
+}
+#navi{
+	height: 30px;
+	background: #333333;
+}
+#navi ul{
+	list-style: none;
+}
+#navi ul a{
+	color: #FF9900;
+	display: block;
+	padding: 5px 10px;
+}
+#navi ul a:hover{
+	background: #FF9900;
+	color: #333333;
+}
+#navi ul li{
+	float: left;
+}
+#navi li ul{
+	position: absolute;
+    display: none;
+    margin-bottom: 165px;
+	background: #333333;
+	width: 120px;
+	border-left: solid 5px #FF9900;
+	background: linear-gradient(to right, #333333 40%, transparent 99%);
+	/background: rgba(51, 51, 51, 0.5);
+}
+#navi li ul li{
+	float: none;
+}
+#navi li:hover ul { 
+	display: block;
+} 
+#phone{
+	float: left;
+	width: 200px;
+	height: 60px;
+	margin: 15px 20px;
+	border: solid 2px #FF9900;
+	border-radius: 8px;
+	padding: 3px; 
+	padding-left: 15px;
+	/font: 16pt ARIAL BLACK;
+	font: 18pt ARIAL;
+	font-weight: bold;
+}
+#head_pic{
+	width: 647px;
+	height: 200px;
+	margin: 10px 20px;
+	box-shadow: 4px 4px 8px black;
+	
+}
+#flash{
+	position: relative;
+	/width: 310px;
+	width: 19em;
+	height: 35px;
+	top: 100px;
+	left: 520px;
+	border-left: solid 5px #FF9900;
+	border-right: solid 5px #FF9900;
+	border-top: solid 1px #FF9900;
+	border-bottom: solid 1px #FF9900;
+	border-radius: 8px;
+	padding: 3px 15px; 
+	background: rgba(51, 51, 51, 0.7);
+}
+
+#flash a{
+	position: inherit;
+	top: -95px;
+	color: #FF9900;
+	font: 22pt ARIAL;
+	font-weight: bold;
+}
+
+#content{
+	height: 750px;
+	width: 900px;
+	overflow: hidden;
+}
+#info{
+	height: 20px;
+	background: #333333;
+	padding: 5px 10px;
+	text-align: center;
+}
+

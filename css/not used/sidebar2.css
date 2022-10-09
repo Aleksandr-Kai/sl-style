@@ -1,0 +1,34 @@
+#sidebar{
+	width: 200px;
+	float: left;
+	/border-right: solid 3px #FF9900;
+	/border-radius: 8px;
+}
+#sidebar ul li.li_null{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#sidebar ul{
+	list-style: none;
+}
+#sidebar ul li{
+	border-top: solid 3px #FF9900;
+	box-shadow: 4px 4px 8px black;
+	margin-top:10px;
+	border-radius: 5px;
+}
+#sidebar ul li:last-child{
+	/border-bottom: none;
+}
+#sidebar ul a{
+	color: #333333;
+	display: block;
+	padding: 10px 10px;
+	font: 10pt ARIAL BLACK;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#sidebar ul a:hover{
+	/*background: rgba(0,0,0,.5);*/
+	background: #FF9900;
+}

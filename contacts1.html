@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<title>Нержавеющий стиль</title>
+</head>
+<script type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=Bx5gxhh89jIpQ6LNxgOQh6U2Hg3uCe0w&width=500&height=350&id=map"></script>
+
+<style>
+	.btn_up{
+		width: 150px;
+		height: 20px;
+		padding: 5px;
+		border: solid 2px #FF9900;
+		box-shadow: 4px 4px 8px black;
+		border-radius: 8px;
+		font: 10pt ARIAL BLACK;
+		font-weight: bold;
+		background: #333333;
+		margin: 0 10px;
+	}
+	.btn_down{
+		width: 150px;
+		height: 20px;
+		padding: 5px;
+		border: solid 2px #333333;
+		border-radius: 8px;
+		background: #FF9900;
+		font: 10pt ARIAL BLACK;
+		font-weight: bold;
+		margin: 0 10px;
+	}
+	#btns{
+		margin: 0 260px;
+	}
+	#btns ul{
+		list-style: none;
+	}
+	#btns ul li{
+		float: left;
+	}
+</style>
+<body>
+    <div id="content" style="background-image: url(img/contact_bg1.jpg);">
+		<h3 style="margin: 30px; padding=auto;">
+			Ростовская обл. г.Таганрог Поляковское Шоссе 49<br>
+			тел. 8 (918) 599 18 17, 8 (918) 516 62 32
+		</h3>
+		<div id="map" class="map_block"></div>
+		<div id="btns">
+			<ul>
+				<li><div class="btn_down"><a href="#" style="display: block; color: #333333; line-height: 20px;">Производство</a></div></li>
+				<li><div class="btn_up"><a href="contacts2.html" style="display: block; color: #FF9900; line-height: 20px;">Магазин</a></div></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
